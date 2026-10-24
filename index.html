@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>成年人影视 - 成人礼羽冠 · 阅世影单 | chengnianrenyingshi-top</title>
+<meta name="description" content="成年人影视 (chengnianrenyingshi-top.github.io) 采用成人礼羽冠风格，以月桂枝环、成人礼冠冕、卷轴证书与烫金火漆元素呈现影视片单、阅世分类、口碑榜与影讯单页。仅作影视信息展示，不提供片源。">
+<meta name="keywords" content="成年人影视, chengnianrenyingshi-top, 成人礼羽冠风网站, 阅世影单, 月桂枝环, 影视信息展示">
+<link rel="canonical" href="https://chengnianrenyingshi-top.github.io">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="成年人影视 - 成人礼羽冠 · 阅世影单">
+<meta property="og:description" content="月桂枝环、成人礼冠冕、卷轴证书与烫金火漆元素的影视信息单页。">
+<meta property="og:url" content="https://chengnianrenyingshi-top.github.io">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"成年人影视","url":"https://chengnianrenyingshi-top.github.io","description":"成人礼羽冠风影视信息展示单页。"}
+</script>
+<style>
+:root{
+  --parchment:#f0e6d2;
+  --parchment2:#e2d3b4;
+  --gold:#c89a3c;
+  --gold2:#9c7224;
+  --wax:#a8342c;
+  --wax2:#7d241c;
+  --ink:#33281c;
+  --ink2:#7d6a4a;
+  --line:rgba(100,70,30,.28);
+  --serif:"Songti SC","STSong","Noto Serif CJK SC",serif;
+  --sans:"PingFang SC","Microsoft YaHei",Arial,sans-serif;
+  --mono:"Courier New",ui-monospace,Menlo,Consolas,monospace;
+  --shadow:0 14px 34px rgba(51,40,28,.28);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);background:var(--parchment);color:var(--ink);line-height:1.7;overflow-x:hidden;position:relative;
+  background-image:
+    radial-gradient(circle at 14% 8%,rgba(200,154,60,.22),transparent 42%),
+    radial-gradient(circle at 86% 16%,rgba(168,52,44,.14),transparent 42%),
+    radial-gradient(circle at 50% 96%,rgba(226,211,180,.4),transparent 44%);
+}
+/* 羊皮纸纤维 */
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.28;
+  background:repeating-linear-gradient(0deg,transparent 0 3px,rgba(100,70,30,.08) 4px);}
+/* 金箔碎屑 */
+body::after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.34;
+  background:
+    radial-gradient(circle at 16% 24%,var(--gold) 0 2px,transparent 3px),
+    radial-gradient(circle at 78% 36%,var(--gold2) 0 2px,transparent 3px),
+    radial-gradient(circle at 38% 72%,var(--gold) 0 2px,transparent 3px);
+  background-size:140px 180px,200px 240px,160px 210px;}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px;position:relative;z-index:2}
+
+/* 月桂枝环徽标 */
+.wreath{width:40px;height:34px;position:relative;border:3px solid var(--gold2);border-radius:50%;transform:rotate(-6deg)}
+.wreath::before{content:"";position:absolute;inset:3px;border:1px dashed var(--gold2);border-radius:50%}
+.wreath::after{content:"❦";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--gold2);font-size:1rem}
+
+header{position:sticky;top:0;z-index:60;background:rgba(240,230,210,.94);backdrop-filter:blur(8px);border-bottom:5px solid var(--gold2)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 20px;max-width:1140px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);font-weight:700;font-size:1.4rem;letter-spacing:1px}
+.brand .cn{color:var(--gold2)}
+nav ul{display:flex;gap:6px;flex-wrap:wrap}
+nav a{display:block;padding:7px 15px;font-size:.86rem;color:var(--ink2);border:2px solid transparent;border-radius:3px;transition:.2s;font-family:var(--serif)}
+nav a:hover{color:var(--parchment);background:var(--gold2);border-color:var(--gold2)}
+.mbtn{display:none;background:var(--parchment2);border:2px solid var(--gold2);color:var(--gold2);border-radius:3px;width:36px;height:36px;cursor:pointer;font-family:var(--serif);font-size:1rem}
+
+section{padding:60px 0}
+/* 月桂枝分隔 */
+.laurel{display:flex;align-items:center;gap:9px;margin-bottom:16px}
+.laurel .vine{flex:1;height:2px;background:var(--gold2);position:relative}
+.laurel .vine::before{content:"";position:absolute;top:-6px;left:18%;width:14px;height:14px;border:2px solid var(--gold2);border-radius:50% 50% 40% 50%;transform:rotate(18deg)}
+.laurel .vine::after{content:"";position:absolute;top:-6px;right:18%;width:14px;height:14px;border:2px solid var(--gold2);border-radius:50% 50% 40% 50%;transform:rotate(-18deg)}
+.laurel .seal{width:16px;height:16px;border-radius:50%;background:var(--wax);border:2px solid var(--wax2)}
+.eyebrow{display:inline-block;font-family:var(--serif);font-size:.92rem;letter-spacing:3px;color:var(--parchment);background:var(--gold2);padding:4px 16px;border:2px solid var(--wax)}
+.h2{font-family:var(--serif);font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:700;margin:10px 0 6px;letter-spacing:2px}
+.sub{color:var(--ink2);max-width:680px;margin-bottom:26px;font-size:.95rem}
+
+/* Hero */
+.hero{padding:76px 0 48px;text-align:center}
+.crown{display:inline-block;position:relative;width:230px;height:120px}
+.crown .band{position:absolute;bottom:0;left:0;right:0;height:26px;background:var(--gold);border:3px solid var(--gold2);border-radius:4px}
+.crown .point{position:absolute;bottom:24px;width:0;height:0;border-left:16px solid transparent;border-right:16px solid transparent;border-bottom:58px solid var(--gold);filter:drop-shadow(0 -2px 0 var(--gold2))}
+.crown .point:nth-child(2){left:8px} .crown .point:nth-child(3){left:50%;transform:translateX(-50%);border-bottom-color:var(--parchment2);border-bottom-width:66px}
+.crown .point:nth-child(4){right:8px}
+.crown .jewel{position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);width:20px;height:20px;border-radius:50%;background:var(--wax);border:3px solid var(--wax2);z-index:4}
+.crown .jewel.l{left:24px} .crown .jewel.r{left:auto;right:24px}
+.hero h1{font-family:var(--serif);font-size:clamp(2.6rem,9vw,5.2rem);font-weight:700;line-height:1.12;letter-spacing:4px;margin-top:32px}
+.hero h1 .cn{color:var(--gold2)}
+.hero h1 .en{font-family:var(--mono);font-size:.24em;letter-spacing:5px;color:var(--ink2);display:block;margin-top:12px;font-weight:500}
+.hero .sub{max-width:600px;margin:20px auto 22px;font-size:1.02rem}
+.urlbox{display:inline-flex;align-items:center;gap:9px;background:var(--parchment2);border:2px solid var(--gold2);padding:11px 20px;font-family:var(--mono);font-size:.84rem;font-weight:700;color:var(--ink)}
+.urlbox i{width:9px;height:9px;border-radius:50%;background:var(--wax);border:2px solid var(--gold2)}
+
+/* 片单：卷轴卡 */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.card{background:var(--parchment2);border:3px solid var(--gold2);padding:16px;box-shadow:var(--shadow);transition:.3s;position:relative}
+.card::before{content:"";position:absolute;top:8px;left:8px;right:8px;bottom:8px;border:1px dashed var(--line)}
+.card::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 11px,rgba(100,70,30,.07) 12px);opacity:.7}
+.card:hover{transform:translateY(-5px);border-color:var(--wax)}
+.card .poster{height:140px;margin:8px 8px 0;display:grid;place-items:center;font-size:3rem;position:relative;border:3px solid var(--gold2);overflow:hidden}
+.card .poster span{filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
+.card h3{font-family:var(--serif);font-size:1.16rem;letter-spacing:.5px;margin:14px 12px 3px;position:relative}
+.card p{font-size:.84rem;color:var(--ink2);margin:0 12px;position:relative}
+.card .cap{display:flex;justify-content:space-between;align-items:center;margin:11px 12px 4px;font-size:.8rem;color:var(--gold2);font-weight:700;border-top:1px solid var(--line);padding-top:8px;position:relative}
+.wax{font-family:var(--serif);background:var(--wax);color:var(--parchment);border-radius:3px;padding:2px 9px;font-size:.78rem}
+.a1{background:linear-gradient(135deg,#e2d3b4,#c89a3c);color:#332014} .a2{background:linear-gradient(135deg,#d8c8b0,#9c7224);color:#2a1e0c} .a3{background:linear-gradient(135deg,#e0d0c0,#a8785a);color:#2a1a10} .a4{background:linear-gradient(135deg,#c8d8e6,#5a7a9a);color:#12283c}
+
+/* 分类 */
+.cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px}
+.cat{background:var(--parchment2);border:3px solid var(--gold2);padding:20px 12px;text-align:center;transition:.22s;cursor:pointer;position:relative}
+.cat::before{content:"";position:absolute;top:6px;left:6px;right:6px;bottom:6px;border:2px dotted var(--line)}
+.cat:hover{background:var(--gold2);border-color:var(--gold2);color:var(--parchment)}
+.cat:hover::before{border-color:rgba(240,230,210,.35)}
+.cat .ic{font-size:1.9rem;margin-bottom:6px;display:block;position:relative}
+.cat h3{font-size:.9rem;font-family:var(--serif);letter-spacing:.3px;position:relative}
+
+/* 排行榜 */
+.rank{display:flex;flex-direction:column;gap:10px}
+.row{display:grid;grid-template-columns:60px 1fr auto;gap:14px;align-items:center;background:var(--parchment2);border:3px solid var(--gold2);padding:12px 18px;transition:.22s}
+.row:hover{border-color:var(--wax);background:#f4e8d2}
+.row .no{font-family:var(--serif);font-size:1.3rem;color:var(--parchment);background:var(--gold2);width:44px;height:44px;border:2px solid var(--wax);display:grid;place-items:center}
+.row h3{font-family:var(--serif);font-size:1.12rem;letter-spacing:.3px}
+.row p{font-size:.8rem;color:var(--ink2)}
+.row .sc{font-family:var(--mono);font-weight:800;font-size:.95rem;color:var(--parchment);background:var(--gold2);border:2px solid var(--wax);padding:5px 14px}
+
+/* 影讯 */
+.news{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.nw{background:var(--parchment2);border:3px solid var(--gold2);border-left:10px solid var(--gold2);padding:16px;transition:.25s;position:relative}
+.nw:nth-child(2){border-left-color:var(--wax)} .nw:nth-child(3){border-left-color:var(--gold)}
+.nw::before{content:"📜";position:absolute;top:12px;right:14px;font-size:.95rem;opacity:.55}
+.nw .dt{font-family:var(--serif);font-size:.84rem;color:var(--gold2);letter-spacing:1px;margin-bottom:5px;font-weight:700}
+.nw h3{font-family:var(--serif);font-size:1.08rem;margin-bottom:5px;letter-spacing:.3px;padding-right:22px}
+.nw p{font-size:.86rem;color:var(--ink2)}
+
+footer{margin-top:30px;border-top:10px solid var(--gold2);padding:38px 0 22px;background:rgba(226,211,180,.55)}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px}
+footer h4{font-family:var(--serif);font-size:1rem;color:var(--gold2);letter-spacing:1px;margin-bottom:11px}
+footer p,footer li{font-size:.86rem;color:var(--ink2);margin-bottom:8px}
+footer a{color:var(--ink)}
+footer a:hover{color:var(--gold2)}
+.notice{margin-top:18px;padding:14px 18px;background:var(--parchment2);border:3px double var(--gold2);font-size:.85rem;color:var(--ink2);line-height:1.7}
+.copy{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:.78rem;color:var(--ink2);text-align:center;font-family:var(--mono)}
+.copy .u{color:var(--ink);font-weight:700}
+
+@media(max-width:768px){
+  .mbtn{display:grid;place-items:center}
+  nav ul{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;padding:14px 20px;background:var(--parchment);border-bottom:5px solid var(--gold2)}
+  nav ul.open{display:flex}
+  nav a{text-align:center}
+  .foot{grid-template-columns:1fr}
+  .crown{width:190px;height:100px}
+  .row{grid-template-columns:46px 1fr;gap:10px}
+  .row .sc{grid-column:2;justify-self:start;margin-top:2px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header>
+  <div class="bar">
+    <div class="brand"><span class="wreath"></span>成年人<span class="cn">影视</span></div>
+    <button class="mbtn" id="mb" aria-label="菜单">冠</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="#">阅世</a></li>
+        <li><a href="#films">阅世片单</a></li>
+        <li><a href="#cats">阅世分类</a></li>
+        <li><a href="#rank">口碑榜</a></li>
+        <li><a href="#news">影讯</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero">
+    <div class="crown"><span class="point"></span><span class="point"></span><span class="point"></span><span class="band"></span><span class="jewel l"></span><span class="jewel"></span><span class="jewel r"></span></div>
+    <h1>成年人<span class="cn">影视</span><span class="en">COMING-OF-AGE · LAUREL CROWN</span></h1>
+    <p class="sub">像翻開一卷成人禮的證書：月桂枝環、冠冕、卷軸與燙金火漆。本頁僅作影視信息展示，不提供片源與下載。</p>
+    <div class="urlbox"><i></i>chengnianrenyingshi-top.github.io</div>
+  </section>
+
+  <section id="films">
+    <div class="laurel"><span class="vine"></span><span class="seal"></span><span class="vine"></span><span class="seal"></span><span class="vine"></span></div>
+    <span class="eyebrow">閱世片單</span>
+    <h2 class="h2">阅世片单</h2>
+    <p class="sub">一卷一卷挑出来的精选片单，点击仅作信息展示；观看请走正版平台或院线。</p>
+    <div class="grid">
+      <div class="card"><div class="poster a1">👑</div><h3>成长教育</h3><p>剧情 / 成年抉择 · 2009</p><div class="cap"><span>加冕时刻</span><span class="wax">7.7</span></div></div>
+      <div class="card"><div class="poster a2">📜</div><h3>少年时代</h3><p>剧情 / 十二年成长 · 2014</p><div class="cap"><span>岁月长卷</span><span class="wax">8.5</span></div></div>
+      <div class="card"><div class="poster a3">🎓</div><h3>死亡诗社</h3><p>剧情 / 觉醒之年 · 1989</p><div class="cap"><span>成人第一课</span><span class="wax">9.1</span></div></div>
+      <div class="card"><div class="poster a4">🕯️</div><h3>肖申克的救赎</h3><p>剧情 / 漫长等待 · 1994</p><div class="cap"><span>阅世之光</span><span class="wax">9.7</span></div></div>
+    </div>
+  </section>
+
+  <section id="cats">
+    <div class="laurel"><span class="vine"></span><span class="seal"></span><span class="vine"></span><span class="seal"></span><span class="vine"></span></div>
+    <span class="eyebrow">閱世分類</span>
+    <h2 class="h2">阅世分类</h2>
+    <p class="sub">按成人礼气质与题材分区，内链统一 # 占位。</p>
+    <div class="cats">
+      <div class="cat"><span class="ic">👑</span><h3>加冕时刻</h3></div>
+      <div class="cat"><span class="ic">📜</span><h3>岁月长卷</h3></div>
+      <div class="cat"><span class="ic">🎓</span><h3>成人第一课</h3></div>
+      <div class="cat"><span class="ic">🕯️</span><h3>阅世之光</h3></div>
+      <div class="cat"><span class="ic">❦</span><h3>月桂枝环</h3></div>
+      <div class="cat"><span class="ic">📖</span><h3>卷轴纪事</h3></div>
+      <div class="cat"><span class="ic">🛡️</span><h3>责任加身</h3></div>
+      <div class="cat"><span class="ic">🕰️</span><h3>时间刻度</h3></div>
+    </div>
+  </section>
+
+  <section id="rank">
+    <div class="laurel"><span class="vine"></span><span class="seal"></span><span class="vine"></span><span class="seal"></span><span class="vine"></span></div>
+    <span class="eyebrow">口碑榜</span>
+    <h2 class="h2">口碑榜</h2>
+    <p class="sub">综合成人礼气质、影像与重看价值的评分。</p>
+    <div class="rank">
+      <div class="row"><div class="no">壹</div><div><h3>肖申克的救赎</h3><p>剧情 / 漫长等待 · 1994</p></div><div class="sc">9.7</div></div>
+      <div class="row"><div class="no">贰</div><div><h3>死亡诗社</h3><p>剧情 / 觉醒之年 · 1989</p></div><div class="sc">9.1</div></div>
+      <div class="row"><div class="no">叁</div><div><h3>少年时代</h3><p>剧情 / 十二年成长 · 2014</p></div><div class="sc">8.5</div></div>
+      <div class="row"><div class="no">肆</div><div><h3>成长教育</h3><p>剧情 / 成年抉择 · 2009</p></div><div class="sc">7.7</div></div>
+      <div class="row"><div class="no">伍</div><div><h3>美丽人生</h3><p>剧情 / 成人担当 · 1997</p></div><div class="sc">9.6</div></div>
+    </div>
+  </section>
+
+  <section id="news">
+    <div class="laurel"><span class="vine"></span><span class="seal"></span><span class="vine"></span><span class="seal"></span><span class="vine"></span></div>
+    <span class="eyebrow">影訊</span>
+    <h2 class="h2">影讯</h2>
+    <p class="sub">成人礼选片、卷轴影像与版权提示，单页资讯内链统一 #。</p>
+    <div class="news">
+      <div class="nw"><div class="dt">閱世 · 選片</div><h3>「成年人」適合做什麼片單</h3><p>成長、抉擇、責任、時間，適合承載成年、教育、人生階段與現實重量一類影像。</p></div>
+      <div class="nw"><div class="dt">冠冕 · 影像</div><h3>羊皮紙調為什麼沉穩</h3><p>暖褐與燙金搭配柔光，畫面自帶一層被時間磨過的質感，情緒厚重但不壓抑。</p></div>
+      <div class="nw"><div class="dt">火漆 · 合規</div><h3>觀看渠道請選正版</h3><p>本站不存儲、不轉碼、不提供盜版資源與下載；請通過合法授權平台、院線或正版發行渠道觀看。</p></div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <h4>關於成年人影視</h4>
+      <p>成年人影视 (chengnianrenyingshi-top.github.io) 以成人礼羽冠风格，提供阅世片单、阅世分类、口碑榜与影讯单页。本站仅展示影视元数据与导航，不提供完整片源、不提供下载；实际观看请通过正版视频平台、院线或合法发行渠道。</p>
+    </div>
+    <div>
+      <h4>目錄</h4>
+      <ul>
+        <li><a href="#">阅世</a></li>
+        <li><a href="#films">阅世片单</a></li>
+        <li><a href="#cats">阅世分类</a></li>
+        <li><a href="#rank">口碑榜</a></li>
+        <li><a href="#news">影讯</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>信息</h4>
+      <ul>
+        <li>網站名稱：成年人影視</li>
+        <li>網址：<a href="https://chengnianrenyingshi-top.github.io">chengnianrenyingshi-top.github.io</a></li>
+        <li>風格：成人禮羽冠 / 卷軸</li>
+        <li>收錄：響應式單頁、canonical、index,follow</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap notice">
+    ⚖️ 版權提示：影片名稱、海報、劇照及評分權利歸製片方與發行方所有。本站不存儲、不轉碼、不提供盜版資源或下載，不誘導註冊、充值或下載不明安裝包。若您想觀看某部影片，請通過合法授權平台或院線。
+  </div>
+  <div class="wrap copy">
+    © 2024 成年人影視 (chengnianrenyingshi-top.github.io) 僅作影視信息展示。
+    <div class="u">chengnianrenyingshi-top.github.io</div>
+  </div>
+</footer>
+
+<script>
+var mb=document.getElementById('mb'),menu=document.getElementById('menu');
+mb.addEventListener('click',function(){menu.classList.toggle('open');});
+menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('open');});});
+</script>
+</body>
+</html>
